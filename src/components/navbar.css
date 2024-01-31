@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poor+Story&display=swap');
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(26, 25, 25);
+    box-shadow: rgba(68, 68, 117, 0.25) 0px 50px 100px -20px, rgba(31, 30, 30, 0.3) 0px 30px 60px -30px, rgba(32, 77, 122, 0.35) 0px -2px 6px 0px inset;
+       
+    
+}
+
+
+.navbar h1{
+    text-shadow: 3px 3px 5px yellow ;
+    font-size: 25px;
+    font-family: "Poor Story", system-ui;
+    font-weight: 800;
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+.navbar .login {
+    padding: 10px 25px;
+    margin-right: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 8px rgba(0,0,0,.5);
+    color: white;
+    background-image: linear-gradient(to right, #c7ca18,#a1837d);
+    border-radius: 5px;
+}
+
+.navbar .logout {
+    padding: 10px 25px;
+    margin-right: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 8px rgba(0,0,0,.5);
+    color: white;
+    background-image: linear-gradient(to right, #c7ca18,#a1837d);
+    border-radius: 5px;
+}
+
+/* .navbar.light-mode {
+    background-color: #b69c9c;
+  } */
+
+
+
+  
