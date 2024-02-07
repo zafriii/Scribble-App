@@ -39,24 +39,11 @@ function Navbar() {
 
 
           }
-
-
             
         </div>
             
       
     </nav>
-
-
-
-        
-
-
-
-    
-
-
-
     
      </>   
     
