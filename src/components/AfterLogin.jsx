@@ -17,20 +17,6 @@ function AfterLogin() {
         localStorage.setItem('textareaText', newText);
       }; 
       
-      // useEffect(() => {
-        
-      //   const newHeight = `${event.target.scrollHeight}px`;
-      //   setTextareaHeight(newHeight);
-    
-      //   const savedText = localStorage.getItem('textareaText');
-      //   if (savedText) {
-      //     setText(savedText);
-      //   }
-    
-    
-      // }, [text]);
-
-
       useEffect(() => {
         const newHeight = `${textRef.current.scrollHeight}px`;
         setTextareaHeight(newHeight);
@@ -55,8 +41,8 @@ function AfterLogin() {
   return (
     <>
     
-        <div className="container">
-
+       <div className="container">
+                  
         <textarea name="text-field" id="text-field"  rows="25"
         value={text}
         onChange={handleChange}
@@ -65,6 +51,8 @@ function AfterLogin() {
 
 
         <button className='copy' onClick={copyText}>Copy</button>
+        
+        <NavLink className='todos' to='/todos'>Todos <IoAddCircleSharp className='icon' /></NavLink>
 
 
         </div>
