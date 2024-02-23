@@ -20,6 +20,7 @@ function App() {
 
                   <Route path='/' element={<BeforeLogin/>}/>
                   <Route path='/afterlogin' element={<AfterLogin/>}/>
+                  <Route path='/todos' element={<TodoApp/>}/>
                  
               </Routes>
               
