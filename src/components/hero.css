@@ -43,7 +43,7 @@
     cursor: pointer;
     box-shadow: 3px 3px 8px rgba(0,0,0,.5);
     color: white;
-    background-image: linear-gradient(to right, #c7ca18,#a1837d);
+    background: linear-gradient(to right, #c7ca18,#a1837d);
     border-radius: 5px;
 
 } 
@@ -73,6 +73,7 @@
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
+    margin-top: 40px;
 }
 
 
@@ -95,6 +96,7 @@
     border-right: 3px solid;
     font-family: monospace;
     font-size: 2em;
+    margin-top: 30px;
   }
   
   @keyframes typing {
@@ -110,7 +112,29 @@
   }
 
   
+.container .todos{
+   
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 8px rgba(0,0,0,.5);
+    color: white;
+    background-image: linear-gradient(to right, #c7ca18,#a1837d);
+    border-radius: 5px;
+}
 
+.container .todos:hover{
+    opacity: 0.8;
+}
+
+.icon{
+    font-size: 20px;
+}
 
 
 @media  (max-width:1920px) {
@@ -254,9 +278,8 @@
     font-size: 30px;
 }
 
-
-
 }
+
 
 
 @media  (max-width:480px) {
