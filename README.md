@@ -10,4 +10,4 @@ Currently, two official plugins are available:
 - Check the live site - https://scribbleapp2.netlify.app (with Todo app)
 - Check the live site - https://scribbleagain.netlify.app   (Without login-Functionality)
 
-- A note-taking app featuring a text area for writing notes, a 'Copy' button for duplicating the content within the text area, and the ability to save the data locally on the device's storage via localStorage.
+- A note-taking app featuring a text area for writing notes, a 'Copy' button for duplicating the content within the text area, and the ability to save the data locally on the device's storage via localStorage. In addition to the note-taking app, we also offer a todo app that helps you stay organized and productive. With intuitive functionality, you can easily add, edit, and delete tasks, all while ensuring your data is securely stored locally on your device.
